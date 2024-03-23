@@ -91,7 +91,6 @@ export default function Table() {
                     </a>
                   </td>
                 </tr>
-                {/* Diğer satırlar buraya eklenecek */}
               </tbody>
             </table>
           </div>
