@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { IoIosArrowDropleft, IoIosArrowDropright } from 'react-icons/io';
+import { useState } from "react";
+import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 
 
 export default function Etkinlik() {
@@ -25,15 +25,15 @@ export default function Etkinlik() {
 
   return (
     <div className="relative mt-10 sm:px-10">
-        <div className='mb-10 flex items-center justify-between'>
-            <span className='text-4xl text-gray-700 font-bold'>
+        <div className="mb-10 flex items-center justify-between">
+            <span className="text-4xl text-gray-700 font-bold">
                 Etkinlikler
             </span>
-            <a href="#" className='bg-gray-100 text-sm text-gray-500 hover:text-blue-700 font-semibold p-2 rounded-md'>Daha Fazla Etkinlik</a>
+            <a href="#" className="bg-gray-100 text-sm text-gray-500 hover:text-blue-700 font-semibold p-2 rounded-md">Daha Fazla Etkinlik</a>
         </div>
         <div className="flex overflow-x-auto">
   {items.map((item, index) => (
-    <div key={index} className={`w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 rounded-xl flex-shrink-0 pr-4 ${index >= currentIndex && index < currentIndex + 4 ? 'block' : 'hidden'}`}>
+    <div key={index} className={`w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 rounded-xl flex-shrink-0 pr-4 ${index >= currentIndex && index < currentIndex + 4 ? "block" : "hidden"}`}>
       <img src={item} alt={`Slide ${index}`} className="w-full h-auto rounded-lg" />
     </div>
   ))}

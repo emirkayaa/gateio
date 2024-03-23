@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io';
+import React, { useState } from "react";
+import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 
 
 const Carousel = ({ slides }) => {

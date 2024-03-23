@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Header({}) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className='fixed top-0 left-0 right-0 z-20'>
+    <div className="fixed top-0 left-0 right-0 z-20">
       <nav className="bg-gray-800 ">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
@@ -13,7 +13,7 @@ export default function Header({}) {
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-                aria-expanded={mobileMenuOpen ? 'true' : 'false'}
+                aria-expanded={mobileMenuOpen ? "true" : "false"}
               >
                 <span className="sr-only">Open main menu</span>
                 {/* Menü kapalıyken gösterilecek simge */}
@@ -106,7 +106,7 @@ export default function Header({}) {
         </div>
       </nav>
       {/* Mobil menü çekmecesi */}
-      <div className={`${mobileMenuOpen ? 'block' : 'hidden'} sm:hidden`}>
+      <div className={`${mobileMenuOpen ? "block" : "hidden"} sm:hidden`}>
         <div className="px-2 pt-2 pb-8 space-y-1">
           <a
             href="#"
