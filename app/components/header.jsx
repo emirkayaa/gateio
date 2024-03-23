@@ -4,8 +4,8 @@ export default function Header({}) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-20">
-      <nav className="bg-gray-800 ">
+    <div className="sticky top-0 left-0 right-0 z-20">
+      <nav className="bg-gray-800 sticky top-0 left-0 right-0 z-20 ">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             {/* Mobil menü butonu */}
@@ -91,13 +91,13 @@ export default function Header({}) {
                     href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                   >
-                    Projects
+                    Alım - Satım
                   </a>
                   <a
                     href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                   >
-                    Calendar
+                    Kripto Piyasası
                   </a>
                 </div>
               </div>
