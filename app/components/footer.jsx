@@ -5,7 +5,7 @@ export default function Footer() {
 <footer class="bg-gray-900 dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class=" text-lg font-bold md:justify-between">  
-          <div class="grid grid-cols-4 justify-center space-x-10 flex-wrap">
+          <div class="grid grid-cols-3 justify-center space-x-10 flex-wrap">
               <div>
                   <h2 class="mb-6 text-lg  font-semibold text-white uppercase dark:text-white">Hakkında</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
