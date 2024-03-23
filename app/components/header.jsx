@@ -48,7 +48,8 @@ export default function Header({}) {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-4 w-auto"
-                    src="https://theme.zdassets.com/theme_assets/2051415/30af6914d7023f986a72ea6c3ec29d804391ae27.svg"
+                    
+                    src="https://static.airpackapp.com/fe-next/homepage/prod/_next/static/media/open_sesame_night.47e06968.png?w=750&q=75"
                     alt="Gateio"
                   />
                 </div>

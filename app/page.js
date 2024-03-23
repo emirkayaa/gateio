@@ -1,5 +1,5 @@
 "use client";
-import Header from "@/app/components/Header";
+import Header from "@/app/components/header";
 import Top from "@/app/components/top";
 import Table from "@/app/components/table";
 import Etkinlik from "@/app/components/etkinlik";
