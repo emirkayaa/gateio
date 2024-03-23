@@ -18,7 +18,7 @@ export default function Top({}) {
               yatırım yapın
             </span>
             <span className="text-md text-gray-400 font-semibold">
-              Kaydolun ve 6666$'a varan hoş geldin ödülleri kazanın
+              Kaydolun ve 6666$ varan hoş geldin ödülleri kazanın
             </span>
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 ">
               <input

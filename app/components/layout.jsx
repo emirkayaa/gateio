@@ -88,7 +88,7 @@ export default function Layout() {
     <span className="text-white text-4xl font-bold">Startup</span>
     <p className="text-lg lg:w-1/2 md:w-full sm:w-full text-wrap text-gray-500">
       Yeni kripto projeleri için launchpad.Gate Startup aracılığıyla kripto
-      airdrop'larını en erken alan siz olun
+      airdropu en erken alan siz olun
     </p>
 
     <div className="bg-gray-800 lg:w-1/2 md:w-full sm:w-full p-4 rounded-lg">
