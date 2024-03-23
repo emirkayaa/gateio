@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io';
 
+
 const Carousel = ({ slides }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -21,7 +22,7 @@ const Carousel = ({ slides }) => {
       >
         {slides.map((slide, index) => (
           <div key={index} className="w-full h-screen flex flex-col justify-center items-center">
-            <img src={slide} alt={`Slide ${index + 1}`} className="max-h-full max-w-full" />
+            <img  src={slide} alt={`Slide ${index + 1}`} className="max-h-full max-w-full" />
           </div>
         ))}
       </div>

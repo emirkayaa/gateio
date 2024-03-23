@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { IoIosArrowDropleft, IoIosArrowDropright } from 'react-icons/io';
 
+
 export default function Etkinlik() {
     const items = [
     "https://gimg2.gateimg.com/image/1710471649643339224TRWebBanner.png?w=384&q=75",

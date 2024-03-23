@@ -113,7 +113,7 @@ export default function Layout() {
           <img
             className="w-full h-64 object-cover rounded-t-lg"
             src="https://gimg2.gateimg.com/startup/1711009500121136091904.jpeg?w=1920&q=75"
-            alt="Slider Image"
+            alt="Slider img"
           />
           <div className="absolute bottom-0 w-full ">
             <div className="text-green-700 bg-gray-400 flex justify-center items-center space-x-2 text-md font-semibold px-3">

@@ -1,5 +1,6 @@
 import { IoIosAppstore, IoIosBluetooth, IoIosGitNetwork } from "react-icons/io";
 
+
 export default function Alim() {
     return(
         <div className="sm:px-10 mt-20">

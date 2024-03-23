@@ -1,6 +1,6 @@
 export default function Basin() {
   return (
-    <div className="mt-10 sm:px-10">
+    <div className="mt-10 mb-10 sm:px-10">
       <div className="mb-10">
         <h1 className="text-3xl font-semibold text-gray-800 dark:text-white">
           Basında Biz
