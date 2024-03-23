@@ -16,7 +16,7 @@ export default function Table() {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap">
+        <div className=" flex flex-wrap space-x-1">
           <div className="overflow-x-auto border border-gray-200 shadow-md sm:rounded-lg mb-4 w-full lg:w-2/3">
             <table className="text-sm text-center text-gray-500 dark:text-gray-400 w-full">
               <caption className="p-5 text-lg font-semibold text-gray-900 bg-white dark:bg-gray-800">
@@ -45,9 +45,7 @@ export default function Table() {
                   <th scope="col" className="px-2 py-3 sm:px-8 sm:py-4">
                     24S Değişim
                   </th>
-                  <th scope="col" className="px-6 py-3 sm:px-8 sm:py-4">
-                    <span className="sr-only">Edit</span>
-                  </th>
+                  
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -67,7 +65,7 @@ export default function Table() {
                       href="#"
                       className="font-medium bg-blue-100 p-3 rounded-md text-blue-600 dark:text-blue-500  hover:bg-blue-700 dark:hover:bg-blue-500 hover:text-white dark:hover:text-white"
                     >
-                      Al-Sat
+                      Satış
                     </a>
                   </td>
                 </tr>
@@ -87,7 +85,7 @@ export default function Table() {
                       href="#"
                       className="font-medium bg-blue-100 p-3 rounded-md text-blue-600 dark:text-blue-500  hover:bg-blue-700 dark:hover:bg-blue-500 hover:text-white dark:hover:text-white"
                     >
-                      Al-Sat
+                      Satış
                     </a>
                   </td>
                 </tr>
